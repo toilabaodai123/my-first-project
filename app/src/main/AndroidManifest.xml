@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.quanlyrapchieuphim4">
+    package="com.example.qlrcp_final2">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QuanLyRapChieuPhim4">
+        android:theme="@style/Theme.QLRCP_Final2">
+        <activity android:name=".ThanhToan"></activity>
+        <activity android:name=".DanhSachPhim" />
+        <activity android:name=".ChonGhe" />
+        <activity android:name=".LichChieu" />
+        <activity android:name=".BinhLuan" />
+        <activity android:name=".DangNhap" />
+        <activity android:name=".ChiTietPhim" />
+        <activity android:name=".DatVe" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

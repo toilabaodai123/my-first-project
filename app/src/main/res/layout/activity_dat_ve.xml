@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="101dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:text="Tên Phim :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="101dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="168dp"
+        android:text="Tên Phim A"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Chọn rạp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:text="Chọn giờ chiếu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:text="Chọn ghế"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:text="Ghế đã chọn :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="184dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="160dp"
+        android:text="Chưa chọn ghế nào:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhấn để chọn ghế"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="189dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="16dp"
+        android:text="Đặt vé"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

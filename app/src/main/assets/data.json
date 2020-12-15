@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id" : "1",
+      "tenphim" : "ABC",
+      "theloai" : "ABC123",
+      "hinhanh" : "R.drawable.waterbucket"
+
+
+    },
+    {
+      "id" : "2",
+      "tenphim" : "XYZ",
+      "theloai" : "XYZ456",
+      "hinhanh" : "R.drawable.waterbucket"
+
+
+    }
+  ]
+
+}
